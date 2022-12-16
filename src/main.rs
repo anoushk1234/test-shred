@@ -23,7 +23,7 @@ fn main() {
     // let connection = UdpTpuConnection::new_from_addr(tpu_socket,socket_address);
     // UdpTpuConnection::
     let node_pubkey = pubkey::Pubkey::from_str("3u1cuv3LcNPtAgcUvZiA4k2eZwgKpj5u6Jwwzq4xfXQe").unwrap();
-    let gossip_socket= SocketAddr::new(IpAddr::V4(Ipv4Addr::new(147,28,133,107)),8001);
+    let gossip_socket = SocketAddr::new(IpAddr::V4(Ipv4Addr::new(127,0,0,1)),17790);
   
     let bind_addr= IpAddr::V4(Ipv4Addr::new(147,28,133,107));
     println!("");
