@@ -10,3 +10,7 @@ solana-client = "1.14.10"
 solana-sdk="1.14.10"
 solana-gossip = "1.14.10"
 solana-streamer="1.14.10"
+futures = "0.3"
+crossbeam = "0.8.2"
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+rand="0.8.5"
